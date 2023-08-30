@@ -1,0 +1,80 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #4abafc;
+    text-align: center;
+    padding: 5px;
+}
+.searchcontainer button {
+    font-size: 16px;
+    padding: 10px 20px; 
+  }
+h2{
+    text-align: center;  
+    color: #000000; 
+    font-size: 35px;
+}
+
+nav { 
+    background-color: #ffffff;
+    font-size: 30px;
+     
+}
+/* Estilos para el título principal */
+.titulo {
+    color: #000000;
+    font-size: 60px;
+}
+
+
+/* Estilos para la sección de destaque */
+.destacado {
+    font-size: 25px;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #f0a550;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+section {
+    color: #000000;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+
+/* Estilos para las tarjetas en disposición horizontal */
+.card-container {
+    display: flex; /* Mostrar las tarjetas en una fila horizontal */
+    gap: 100px; /* Espacio entre las tarjetas */
+  }
+  
+  .card {
+    flex: 1; /* Distribuir el espacio de manera uniforme entre las tarjetas */
+    max-width: 500px; /* Ancho máximo de cada tarjeta */
+    background-color: #c4c4c4;
+    border: 5px solid #424242;
+    border-radius: 20px;
+  }
+  
+  /* Estilos para la imagen dentro de la tarjeta */
+  .card-img-top {
+    width: 80%; /* Asegurarse de que la imagen ocupe todo el ancho disponible */
+    height: auto; /* Mantener la proporción de la imagen */
+    max-height: 200px; /* Altura máxima de la imagen */
+  }
+
+
+
+
+  
+  
